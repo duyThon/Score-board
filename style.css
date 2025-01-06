@@ -1,0 +1,128 @@
+
+body, html {
+  margin: auto;
+  padding: auto;
+  overflow: hidden;
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95% 95%;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  padding: 20px 40px;
+}
+
+.text {
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  margin: 0;
+}
+
+.logo img {
+  width: 180px;
+  right: 36px;
+  top: 30px;
+  position: fixed;
+}
+
+.fulltime {
+  font-size: 212px;
+  margin-top: -20px;
+}
+
+.twenty-four {
+  font-size: 112px;
+  margin-top: -28px;
+}
+
+.teams-logo {
+  width: 300px;
+  margin-top: -166px;
+}
+
+.teams-name {
+  position: absolute;
+  width: 95vw;
+  bottom: 330px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.teams-name h1 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: "Rowdies", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 10px 20px 4px;
+}
+
+.score {
+  font-size: 310px;
+  margin-top: -66px;
+}
+
+.fault {
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+.fault-numb {
+  font-size: 116px;
+  margin-top: -25px;
+}
+
+.consult {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.consult img {
+  width: 40px;
+}
+
+.possession {
+  position: absolute;
+  top: 245px;
+  width: 95vw;
+}
+
+.triangle {
+  width: 60px;
+}
+
+.left {
+  position: relative;
+}
+
+.left img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.right {
+  transform: rotate(180deg);
+  opacity: .3;
+}
+
+.period {
+  font-size: 28px;
+  width: 95vw;
+  position: absolute;
+  bottom: 296px;
+  text-align: center;
+}
